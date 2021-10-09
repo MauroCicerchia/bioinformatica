@@ -1,6 +1,6 @@
 # Ejercicio 2
 
-## Proceso
+## Proceso (Local)
 
 -   Instalar BLAST:
 
@@ -9,7 +9,7 @@
 ```
 
 -   Tener las secuencias de aminoácidos obtenidas del **Ejercicio 1** en formato FASTA (`proteins.fas`)
--   Descargar la base de datos ([**Swissprot**](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz))
+-   Descargar la base de datos [**Swissprot**](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz)
 -   Ejecutar
 
 ```
@@ -25,9 +25,17 @@
 
 -   Este comando generará el archivo "report.blast" con el reporte de blast incluyendo las diferentes especies que contienen las secuencias de proteínas.
 
+## Proceso alternativo (Online)
+
+-   Ingresar al [**portal de Blast del NCBI**](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+-   Seleccionar **Protein BLAST** (protein->protein)
+-   Seleccionar **blastp**
+-   Subir el archivo `proteins.fas`, o copiar su contenido
+-   Hacer click en el botón **BLAST**
+
 ## Resultado
 
--   Como resultado del análisis Blast sobre el input proporcionado, notamos que la primer secuencia con ocurrencias encontradas con éxito es la utilizada en el ejercicio 1 ([P00451.1](https://www.ncbi.nlm.nih.gov/protein/P00451.1)), por lo que se puede decir que el proceso se ejecuto de manera correcta.
+-   Como resultado del análisis Blast sobre el input proporcionado, notamos que la primer secuencia con ocurrencias encontradas con éxito es la utilizada en el ejercicio 1 [P00451.1](https://www.ncbi.nlm.nih.gov/protein/P00451.1), por lo que se puede decir que el proceso se ejecuto de manera correcta.
 
 |   Score   | Identities  |  Positives  | Expect |  Gaps  |
 | :-------: | :--------:  |  :-------:  | :----: | :----: |
