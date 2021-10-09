@@ -18,4 +18,6 @@
 
 -   Como output, obtuvimos el archivo `proteins.fas` con las secuencias de proteinas correspondientes al gen.
 
+## Resultado
+
 -   Utilizando ORFfinder llegamos a la conclusión de que el marco de lectura correcto es el NM_000132-0F, con rango 172-7227 y 7056 nucleótidos de longitud.
