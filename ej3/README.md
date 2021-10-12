@@ -6,10 +6,10 @@ Se eligieron las siguientes secuencias en base a los resultados obtenidos del re
 
 | Secuencia de referencia (NCBI) | Especie | Nombre |
 |:---:|:---:|:---:|
-| P42858.2 | Homo sapiens | Humano |
-| P42859.2 | Pan paniscus | Bonobo |
-| P51111.1 | Balaenoptera musculus | Ballena Azul |
-| P51112.1 | Ailuropoda melanoleuca | Panda Gigante |
+| NP_000123.1 | Homo sapiens | Humano |
+| XP_003810005.2 | Pan paniscus | Bonobo |
+| XP_036695598.1 | Balaenoptera musculus | Ballena Azul |
+| XP_034505542.1 | Ailuropoda melanoleuca | Panda Gigante |
 
 ## Proceso
 - Acceder a la página de [UNIPROT](https://www.uniprot.org/align/) para realizar la alineación de las distintas secuencias de proteinas.
