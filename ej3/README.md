@@ -20,4 +20,7 @@ Se eligieron las siguientes secuencias en base a los resultados obtenidos del re
 - __Similar positions:__ 373
 
 ### Árbol filogenético
+![phylogenetic_tree](https://user-images.githubusercontent.com/25493851/137031040-d450c3aa-d695-4777-8e7b-df021f37f793.png)
+
+
 - Dado el árbol filogenético generado para las secuencias seleccionadas, podemos ver como el **Pan paniscus** y el **Homo sapiens** tienen una mayor relación, por lo que concluímos que tienen el ancestro común más cercano. A estas dos especies les sigue la **Balaenoptera musculus**, que se relaciona con los anteriores dos organismos y por último el **Ailuropoda melanoleuca**.
