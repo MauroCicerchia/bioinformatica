@@ -8,7 +8,7 @@
     cpanm Bio::Perl
 ```
 
--   Descargamos del NCBI el gen a procesar, en particular el ([Homo sapiens coagulation factor VIII (F8)](https://www.ncbi.nlm.nih.gov/nuccore/NM_000132.4)).
+-   Descargamos del NCBI el gen a procesar, en nuestro caso particular el ([Homo sapiens coagulation factor VIII (F8)](https://www.ncbi.nlm.nih.gov/nuccore/NM_000132.4)).
 -   Guardamos la información en el archivo `sequence.gb`
 -   Ejecutamos el script desarrollado con
 
@@ -16,7 +16,7 @@
     perl ej1.pl
 ```
 
--   Como output, obtuvimos el archivo `proteins.fas` con las secuencias de proteinas correspondientes al gen.
+-   Como salida del proceso, obtuvimos el archivo `proteins.fas` con las 6 secuencias de proteinas correspondientes al gen, cada una con un determinado marco de lectura.
 
 ## Resultado
 

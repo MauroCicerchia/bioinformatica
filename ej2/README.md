@@ -8,8 +8,8 @@
     sudo apt-get install ncbi-blast+
 ```
 
--   Tener las secuencias de aminoácidos obtenidas del **Ejercicio 1** en formato FASTA (`proteins.fas`)
--   Descargar la base de datos [**Swissprot**](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz)
+-   Tener las secuencias de aminoácidos obtenidas como resultado del **Ejercicio 1** en formato FASTA. Las mismas se encuentran en el archivo `proteins.fas`.
+-   Descargar la base de datos de [**Swissprot**](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz)
 -   Ejecutar
 
 ```
@@ -41,8 +41,9 @@
 | :-------: | :--------:  |  :-------:  | :----: | :----: |
 | 4908 bits |  2351/2351  |  2351/2351  |   0    | 0/2351 |
 
+### Interpretación de resultados
+
 -   Los **Identities** representan la cantidad de aminoacidos que coinciden de manera perfecta entre ambas secuencias.
--   Los **Positives** representan, similar a identities, la cantidad de aminoacidos que coinciden de manera exacta, pero también aquellos que tienen características químicas similares.
+-   Los **Positives** representan la cantidad de aminoacidos que coinciden de manera exacta, pero también aquellos que tienen características químicas similares.
 -   Los **Gaps** representan aquellos aminoacidos que no coinciden entre ambas secuencias, por lo que tiene sentido que sean 0.
 -   El **Expect** representa que tan alta es la posibilidad de que la coincidencia sea por azar.
--   Por otro lado, los valores estadísticos (E values) asociados a las secuencias encontradas son cercanos a 0, por lo que tenemos confianza de que las coincidencias no se deben al azar.

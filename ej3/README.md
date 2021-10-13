@@ -2,7 +2,7 @@
 
 ## Secuencias utilizadas
 
-Se eligieron las siguientes secuencias en base a los resultados obtenidos del reporte de BLAST realizado en el ejercicio 2.
+En base a los resultados obtenidos del reporte de BLAST realizado en el ejercicio 2, se eligieron las siguientes secuencias para ser alineadas:
 
 | Secuencia de referencia (NCBI) | Especie | Nombre |
 |:---:|:---:|:---:|
@@ -13,6 +13,7 @@ Se eligieron las siguientes secuencias en base a los resultados obtenidos del re
 
 ## Proceso
 - Acceder a la página de [UNIPROT](https://www.uniprot.org/align/) para realizar la alineación de las distintas secuencias de proteinas.
+- Ingresar las secuencias en la página y realizar el análisis.
 
 ## Resultados
 - __Identical positions:__ 1703
