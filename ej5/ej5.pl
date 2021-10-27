@@ -10,8 +10,8 @@ $patmatmotifs = $embossFactory->program('patmatmotifs');
 
 while ($index = $genesFile->next_seq) {
     if($index->validate_seq($index->seq)) {
-        $getorf->run({-sequence => $index, -outseq => 'proteins.fas', -minsize => 300});
-        # $patmatmotifs->run({-sequence => $index, -outfile => 'proteins.motifs'}); TODO
+        $getorf->run({-sequence => $index, -outseq => 'proteins.fas', -minsize => 500});
+        $patmatmotifs->run({-sequence => $index, -outfile => 'proteins.motifs'});
     } else {
         die 'File is not valid';
     }
