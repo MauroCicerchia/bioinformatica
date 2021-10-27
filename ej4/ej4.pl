@@ -16,8 +16,3 @@ while($currentResult = $blastFile->next_result) {
         }
     }
 }
-
-sub getAccession {
-    $accessionEnd = index($_[0], '.');
-    return substr($_[0], 0, $accessionEnd);
-}
